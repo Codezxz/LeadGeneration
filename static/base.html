@@ -1,0 +1,75 @@
+<!-- templates/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Your Title{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="nav-wrapper">
+        <nav>
+            <!-- Link to get_geo_codes.html -->
+            <a href="{{ url_for('get_geo_codes') }}" class="hover-this"><span>Enter Location</span></a>
+            
+            <!-- Link to index.html -->
+            <a href="{{ url_for('linkedin_scrape') }}" class="hover-this"><span>Scrap Now</span></a>
+            
+            <a href="#" class="hover-this"><span>Contact</span></a>
+            <div class="cursor"></div>
+        </nav>
+    </div>
+    <div class="container mt-5">
+        {% block content %}{% endblock %}
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('form');
+            var scrapeButton = document.getElementById('next');
+    
+            form.addEventListener('submit', function () {
+                scrapeButton.querySelector('.spinner-border').classList.remove('d-none');
+                scrapeButton.setAttribute('disabled', 'true');
+                scrapeButton.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading...';            
+                return true;
+            });
+        });
+    </script>
+    
+    <script>
+        (function () {
+            const link = document.querySelectorAll('nav > .hover-this');
+            const cursor = document.querySelector('.cursor');
+
+            const animateit = function (e) {
+                const span = this.querySelector('span');
+                const { offsetX: x, offsetY: y } = e,
+                { offsetWidth: width, offsetHeight: height } = this,
+
+                move = 25,
+                xMove = x / width * (move * 2) - move,
+                yMove = y / height * (move * 2) - move;
+
+                span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+
+                if (e.type === 'mouseleave') span.style.transform = '';
+            };
+
+            const editCursor = e => {
+                const { clientX: x, clientY: y } = e;
+                cursor.style.left = x + 'px';
+                cursor.style.top = y + 'px';
+            };
+
+            link.forEach(b => b.addEventListener('mousemove', animateit));
+            link.forEach(b => b.addEventListener('mouseleave', animateit));
+            window.addEventListener('mousemove', editCursor);
+        })();
+    </script>
+</body>
+</html>

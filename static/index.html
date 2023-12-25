@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Scraping</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>LinkedIn Scraping</h1>
+        <div class="cursor"></div>
+        <div class="scrape-form-container">
+
+            <form action="{{ url_for('linkedin_scrape') }}" method="post" id="scrapeForm" class="scrape-form">
+                <!-- <div class="form-group">
+                    <label for="keywords">Search Keywords:</label>
+                    <input type="text" class="form-control" name="keywords" required>
+                </div> -->
+
+                <div class="form-group">
+                    <label for="totalResults">Total Results:</label>
+                    <input type="number" class="form-control" name="totalResults" required>
+                </div>
+                <a href="{{ url_for('linkedin_scrape') }}" class="hover-this">
+                    <button type="submit" class="btn btn-primary" id="scrapeButton">
+                        <!-- <a href="{{ url_for('linkedin_scrape') }}" class="hover-this"><span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true">Scrape</a> -->
+                        <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                        Scrape
+                    </button>
+                    <a href="{{ url_for('detailed_data') }}" class="btn btn-secondary ml-2">Detailed Info</a>
+
+                </a>
+            </form>
+        </div>
+
+        <div class="mt-4">
+            {% if data %}
+                <h2></h2>
+                <table class="table table-light">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Services and Location</th>
+                            <th>Description</th>
+                            <th>Followers</th>
+                            <th>Navigation URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in data %}
+                            <tr>
+                                <td>{{ item['title'] }}</td>
+                                <td>{{ item['ServicesAndLocation'] }}</td>
+                                <td>{{ item['company_description'] }}</td>
+                                <td>{{ item['Followers'] }}</td>
+                                <td><a href="{{ item['Navigation_URL'] }}" target="_blank">{{ item['Navigation_URL'] }}</a></td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.getElementById('scrapeForm');
+            var scrapeButton = document.getElementById('scrapeButton');
+
+            form.addEventListener('submit', function () {
+                scrapeButton.querySelector('.spinner-border').classList.remove('d-none');
+                scrapeButton.setAttribute('disabled', 'true');
+                scrapeButton.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading...';            
+                return true;
+            });
+        });
+    </script>
+    <script>
+        (function () {
+            const link = document.querySelectorAll('nav > .hover-this');
+            const cursor = document.querySelector('.cursor');
+
+            const animateit = function (e) {
+                const span = this.querySelector('span');
+                const { offsetX: x, offsetY: y } = e,
+                { offsetWidth: width, offsetHeight: height } = this,
+
+                move = 25,
+                xMove = x / width * (move * 2) - move,
+                yMove = y / height * (move * 2) - move;
+
+                span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+
+                if (e.type === 'mouseleave') span.style.transform = '';
+            };
+
+            const editCursor = e => {
+                const { clientX: x, clientY: y } = e;
+                cursor.style.left = x + 'px';
+                cursor.style.top = y + 'px';
+            };
+
+            link.forEach(b => b.addEventListener('mousemove', animateit));
+            link.forEach(b => b.addEventListener('mouseleave', animateit));
+            window.addEventListener('mousemove', editCursor);
+        })();
+    </script>
+
+</body>
+</html>

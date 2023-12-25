@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Scrapper</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Russo One', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 80px;
+        }
+
+        .nav-wrapper {
+            background: #343a40;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            margin: 0 auto;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hover-this {
+            position: relative;
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            padding: 10px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .hover-this:hover {
+            color: #ffd700;
+        }
+
+        span {
+            position: relative;
+            display: inline-block;
+            font-weight: 400;
+            transition: transform 0.1s linear;
+        }
+
+        .cursor {
+            position: fixed;
+            width: 24px;
+            height: 24px;
+            background-color: #fff;
+            border-radius: 50%;
+            mix-blend-mode: difference;
+            pointer-events: none;
+            z-index: 3;
+        }
+
+        .hover-this:hover ~ .cursor {
+            transform: translate(-50%, -50%) scale(8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- <h1>Welcome to the Homepage</h1> -->
+        
+        <!-- Navigation elements -->
+        <div class="nav-wrapper">
+            <nav>
+                <!-- Link to get_geo_codes.html -->
+                <a href="{{ url_for('get_geo_codes') }}" class="hover-this"><span>Enter Location</span></a>
+                
+                <!-- Link to index.html -->
+                <a href="{{ url_for('linkedin_scrape') }}" class="hover-this"><span>Scrap Now</span></a>
+                
+                <a href="{{ url_for('display_clutch_data') }}" class="hover-this"><span>Clutch</span></a>
+                <div class="cursor"></div>
+            </nav>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script>
+        (function () {
+            const link = document.querySelectorAll('.hover-this');
+            const cursor = document.querySelector('.cursor');
+
+            const animateit = function (e) {
+                const span = this.querySelector('span');
+                const { offsetX: x, offsetY: y } = e,
+                { offsetWidth: width, offsetHeight: height } = this,
+
+                move = 25,
+                xMove = x / width * (move * 2) - move,
+                yMove = y / height * (move * 2) - move;
+
+                span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+
+                if (e.type === 'mouseleave') span.style.transform = '';
+            };
+
+            const editCursor = e => {
+                const { clientX: x, clientY: y } = e;
+                cursor.style.left = x + 'px';
+                cursor.style.top = y + 'px';
+            };
+
+            link.forEach(b => b.addEventListener('mousemove', animateit));
+            link.forEach(b => b.addEventListener('mouseleave', animateit));
+            window.addEventListener('mousemove', editCursor);
+        })();
+    </script>
+</body>
+</html>

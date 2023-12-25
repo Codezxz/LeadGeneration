@@ -1,0 +1,2729 @@
+{
+  "Title": "Top Web Developers in Ahmedabad - 2023 Reviews | Clutch.co",
+  "Description": "Detailed client reviews of the leading Ahmedabad web development companies. Hire the best web developer in Ahmedabad.",
+  "HeadTitle": "Top Web Developers in Ahmedabad",
+  "URL": "/in/web-developers/ahmedabad",
+  "ClearAllURL": "web-developers",
+  "ClientBudgets": [
+    {
+      "Slug": "0",
+      "Count": 1391
+    },
+    {
+      "Slug": "5000",
+      "Count": 720
+    },
+    {
+      "Slug": "10000",
+      "Count": 1060
+    },
+    {
+      "Slug": "25000",
+      "Count": 1191
+    },
+    {
+      "Slug": "50000",
+      "Count": 1222
+    },
+    {
+      "Slug": "75000",
+      "Count": 1229
+    },
+    {
+      "Slug": "100000",
+      "Count": 1229
+    },
+    {
+      "Slug": "250000",
+      "Count": 1238
+    }
+  ],
+  "ClientSizes": [
+    {
+      "Slug": "field_pp_cs_small_biz",
+      "Count": 981
+    },
+    {
+      "Slug": "field_pp_cs_midmarket",
+      "Count": 864
+    },
+    {
+      "Slug": "field_pp_cs_enterprise",
+      "Count": 642
+    }
+  ],
+  "CompanySizes": [
+    {
+      "Slug": "10 - 49",
+      "Count": 813
+    },
+    {
+      "Slug": "2 - 9",
+      "Count": 265
+    },
+    {
+      "Slug": "50 - 249",
+      "Count": 254
+    },
+    {
+      "Slug": "250 - 999",
+      "Count": 42
+    },
+    {
+      "Slug": "Freelancer",
+      "Count": 9
+    },
+    {
+      "Slug": "1,000 - 9,999",
+      "Count": 8
+    }
+  ],
+  "Flags": [
+    {
+      "Slug": "-1",
+      "Count": 1391
+    }
+  ],
+  "FocusAreas": [
+    {
+      "Slug": "field_pp_map_android",
+      "Count": 740
+    },
+    {
+      "Slug": "field_pp_map_iphone",
+      "Count": 732
+    },
+    {
+      "Slug": "field_pp_psl_php",
+      "Count": 701
+    },
+    {
+      "Slug": "field_pp_fw_wordpress",
+      "Count": 626
+    },
+    {
+      "Slug": "field_app_plat_amazon",
+      "Count": 611
+    },
+    {
+      "Slug": "field_pp_map_web",
+      "Count": 611
+    },
+    {
+      "Slug": "field_pp_psl_javascript",
+      "Count": 577
+    },
+    {
+      "Slug": "field_pp_ma_ecommerce",
+      "Count": 557
+    },
+    {
+      "Slug": "field_app_plat_linux",
+      "Count": 516
+    },
+    {
+      "Slug": "field_pp_fw_laravel",
+      "Count": 490
+    },
+    {
+      "Slug": "field_pp_fw_node_js",
+      "Count": 476
+    },
+    {
+      "Slug": "field_pp_map_ipad",
+      "Count": 464
+    },
+    {
+      "Slug": "field_pp_fw_angular_js",
+      "Count": 455
+    },
+    {
+      "Slug": "field_pp_ma_health_wellness",
+      "Count": 441
+    },
+    {
+      "Slug": "field_pp_ma_education",
+      "Count": 420
+    },
+    {
+      "Slug": "field_pp_psl_sql",
+      "Count": 389
+    },
+    {
+      "Slug": "field_pp_ecom_woocom",
+      "Count": 382
+    },
+    {
+      "Slug": "field_pp_fw_react_native",
+      "Count": 379
+    },
+    {
+      "Slug": "field_app_plat_azure",
+      "Count": 366
+    },
+    {
+      "Slug": "field_app_plat_google",
+      "Count": 363
+    },
+    {
+      "Slug": "focus_framework_reactjs",
+      "Count": 363
+    },
+    {
+      "Slug": "field_app_plat_windows",
+      "Count": 362
+    },
+    {
+      "Slug": "field_pp_ecom_magento",
+      "Count": 347
+    },
+    {
+      "Slug": "field_pp_psl_swift2",
+      "Count": 342
+    },
+    {
+      "Slug": "field_pp_ma_travel_lifestyle",
+      "Count": 331
+    },
+    {
+      "Slug": "field_pp_ecom_shopify",
+      "Count": 326
+    },
+    {
+      "Slug": "field_pp_ma_social",
+      "Count": 324
+    },
+    {
+      "Slug": "field_pp_ma_financial",
+      "Count": 322
+    },
+    {
+      "Slug": "field_pp_ma_crm_sales",
+      "Count": 304
+    },
+    {
+      "Slug": "field_pp_ma_other_enterprise",
+      "Count": 279
+    },
+    {
+      "Slug": "field_pp_fw_dot_net",
+      "Count": 269
+    },
+    {
+      "Slug": "field_pp_psl_aspnet",
+      "Count": 262
+    },
+    {
+      "Slug": "field_pp_psl_ajax",
+      "Count": 260
+    },
+    {
+      "Slug": "field_pp_psl_java",
+      "Count": 249
+    },
+    {
+      "Slug": "field_pp_ma_other_apps",
+      "Count": 242
+    },
+    {
+      "Slug": "field_app_plat_other",
+      "Count": 240
+    },
+    {
+      "Slug": "field_pp_ma_bi",
+      "Count": 237
+    },
+    {
+      "Slug": "focus_framework_flutterjs",
+      "Count": 237
+    },
+    {
+      "Slug": "field_pp_fw_codeigniter",
+      "Count": 233
+    },
+    {
+      "Slug": "field_pp_ma_productivity",
+      "Count": 220
+    },
+    {
+      "Slug": "field_fl_kotlin",
+      "Count": 217
+    },
+    {
+      "Slug": "field_pp_psl_python",
+      "Count": 212
+    },
+    {
+      "Slug": "field_pp_fw_vuejs",
+      "Count": 207
+    },
+    {
+      "Slug": "field_pp_fl_ux_strategy",
+      "Count": 178
+    },
+    {
+      "Slug": "field_pp_fl_user_research",
+      "Count": 173
+    },
+    {
+      "Slug": "field_pp_fl_usability_testing",
+      "Count": 170
+    },
+    {
+      "Slug": "field_pp_psl_objective_c",
+      "Count": 167
+    },
+    {
+      "Slug": "field_pp_psl_other",
+      "Count": 159
+    },
+    {
+      "Slug": "field_pp_ecom_other",
+      "Count": 153
+    },
+    {
+      "Slug": "field_pp_psl_csharp",
+      "Count": 150
+    },
+    {
+      "Slug": "field_pp_webflow",
+      "Count": 144
+    },
+    {
+      "Slug": "field_pp_seo_on_site_optim",
+      "Count": 140
+    },
+    {
+      "Slug": "field_pp_seo_local_search",
+      "Count": 132
+    },
+    {
+      "Slug": "field_pp_ecom_big_commerce",
+      "Count": 127
+    },
+    {
+      "Slug": "field_pp_seo_content_synd",
+      "Count": 124
+    },
+    {
+      "Slug": "field_pp_psl_typescript",
+      "Count": 122
+    },
+    {
+      "Slug": "field_app_plat_heroku",
+      "Count": 117
+    },
+    {
+      "Slug": "field_pp_ma_games",
+      "Count": 116
+    },
+    {
+      "Slug": "field_pp_seo_link_building",
+      "Count": 112
+    },
+    {
+      "Slug": "field_pp_fw_other",
+      "Count": 108
+    },
+    {
+      "Slug": "field_pp_fw_cakephp",
+      "Count": 106
+    },
+    {
+      "Slug": "field_pp_ma_field_operations",
+      "Count": 105
+    },
+    {
+      "Slug": "field_pp_zoho",
+      "Count": 103
+    },
+    {
+      "Slug": "field_pp_seo_mobile_optim",
+      "Count": 101
+    },
+    {
+      "Slug": "field_pp_fl_redux",
+      "Count": 97
+    },
+    {
+      "Slug": "field_pp_smm_facebook",
+      "Count": 89
+    },
+    {
+      "Slug": "field_pp_smm_instagram",
+      "Count": 86
+    },
+    {
+      "Slug": "field_pp_smm_linkedin",
+      "Count": 83
+    },
+    {
+      "Slug": "field_pp_fw_adobe",
+      "Count": 82
+    },
+    {
+      "Slug": "field_pp_bubble",
+      "Count": 79
+    },
+    {
+      "Slug": "field_pp_ma_publishing",
+      "Count": 79
+    },
+    {
+      "Slug": "field_pp_fw_drupal",
+      "Count": 74
+    },
+    {
+      "Slug": "field_pp_fw_django",
+      "Count": 71
+    },
+    {
+      "Slug": "field_pp_fw_joomla",
+      "Count": 68
+    },
+    {
+      "Slug": "field_pp_seo_other",
+      "Count": 68
+    },
+    {
+      "Slug": "field_pp_map_windows",
+      "Count": 67
+    },
+    {
+      "Slug": "field_pp_sf_lightning",
+      "Count": 66
+    },
+    {
+      "Slug": "field_pp_smm_twitter",
+      "Count": 60
+    },
+    {
+      "Slug": "field_pp_appy_pie",
+      "Count": 58
+    },
+    {
+      "Slug": "field_pp_html5",
+      "Count": 58
+    },
+    {
+      "Slug": "field_pp_map_other",
+      "Count": 58
+    },
+    {
+      "Slug": "field_pp_psl_xml",
+      "Count": 58
+    },
+    {
+      "Slug": "field_pp_ai_machine_learning",
+      "Count": 56
+    },
+    {
+      "Slug": "field_pp_ai_natural_language_pro",
+      "Count": 56
+    },
+    {
+      "Slug": "field_pp_fl_unity",
+      "Count": 54
+    },
+    {
+      "Slug": "field_pp_seo_reputation_manag",
+      "Count": 53
+    },
+    {
+      "Slug": "field_pp_ai_chatbots",
+      "Count": 51
+    },
+    {
+      "Slug": "field_pp_fw_zend",
+      "Count": 51
+    },
+    {
+      "Slug": "field_pp_fw_spring_mvc",
+      "Count": 47
+    },
+    {
+      "Slug": "field_pp_visual_lansa",
+      "Count": 47
+    },
+    {
+      "Slug": "field_pp_nutshell",
+      "Count": 46
+    },
+    {
+      "Slug": "field_pp_fw_ruby_rails",
+      "Count": 44
+    },
+    {
+      "Slug": "field_pp_psl_ruby",
+      "Count": 44
+    },
+    {
+      "Slug": "field_pp_creatio",
+      "Count": 42
+    },
+    {
+      "Slug": "field_pp_psl_asp",
+      "Count": 42
+    },
+    {
+      "Slug": "field_pp_smm_influencer",
+      "Count": 42
+    },
+    {
+      "Slug": "field_pp_ecom_oscommerce",
+      "Count": 41
+    },
+    {
+      "Slug": "field_pp_print_design_brochure",
+      "Count": 41
+    },
+    {
+      "Slug": "field_pp_erp_other",
+      "Count": 40
+    },
+    {
+      "Slug": "field_pp_print_design_bus_card",
+      "Count": 39
+    },
+    {
+      "Slug": "field_pp_fw_sharepoint",
+      "Count": 38
+    },
+    {
+      "Slug": "field_pp_fw_symfony",
+      "Count": 38
+    },
+    {
+      "Slug": "field_pp_ppc_google_adwords",
+      "Count": 38
+    },
+    {
+      "Slug": "field_app_plat_salesforce",
+      "Count": 37
+    },
+    {
+      "Slug": "field_pp_airtable",
+      "Count": 37
+    },
+    {
+      "Slug": "field_pp_print_design_banner",
+      "Count": 37
+    },
+    {
+      "Slug": "field_pp_thunkable",
+      "Count": 37
+    },
+    {
+      "Slug": "field_pp_appian",
+      "Count": 36
+    },
+    {
+      "Slug": "field_pp_fl_ethereum",
+      "Count": 36
+    },
+    {
+      "Slug": "field_pp_fl_smart_contract",
+      "Count": 35
+    },
+    {
+      "Slug": "field_pp_seo_multilingual",
+      "Count": 35
+    },
+    {
+      "Slug": "field_pp_xano",
+      "Count": 35
+    },
+    {
+      "Slug": "field_pp_fw_next_js",
+      "Count": 34
+    },
+    {
+      "Slug": "field_pp_cloud_aws",
+      "Count": 33
+    },
+    {
+      "Slug": "field_pp_sl_brand_strategy",
+      "Count": 33
+    },
+    {
+      "Slug": "field_pp_sl_visual_identity",
+      "Count": 33
+    },
+    {
+      "Slug": "field_pp_map_smarttv",
+      "Count": 31
+    },
+    {
+      "Slug": "field_pp_psl_visualbasic",
+      "Count": 30
+    },
+    {
+      "Slug": "field_pp_seo_technical",
+      "Count": 30
+    },
+    {
+      "Slug": "field_pp_wem",
+      "Count": 30
+    },
+    {
+      "Slug": "field_pp_ai_cognitive_computing",
+      "Count": 29
+    },
+    {
+      "Slug": "field_pp_smm_pinterest",
+      "Count": 28
+    },
+    {
+      "Slug": "field_pp_airslate",
+      "Count": 27
+    },
+    {
+      "Slug": "field_pp_cloud_azure",
+      "Count": 27
+    },
+    {
+      "Slug": "field_pp_fw_oracle",
+      "Count": 27
+    },
+    {
+      "Slug": "field_pp_cloud_google",
+      "Count": 26
+    },
+    {
+      "Slug": "field_pp_genexus",
+      "Count": 26
+    },
+    {
+      "Slug": "field_pp_ms_applications",
+      "Count": 26
+    },
+    {
+      "Slug": "field_pp_ppc_youtube_advertising",
+      "Count": 26
+    },
+    {
+      "Slug": "field_pp_sl_product_branding",
+      "Count": 26
+    },
+    {
+      "Slug": "field_pp_bryter",
+      "Count": 25
+    },
+    {
+      "Slug": "field_pp_crm_marketing_auto",
+      "Count": 25
+    },
+    {
+      "Slug": "field_pp_crm_sales_auto",
+      "Count": 25
+    },
+    {
+      "Slug": "field_pp_kissflow",
+      "Count": 25
+    },
+    {
+      "Slug": "field_pp_ai_robotics",
+      "Count": 24
+    },
+    {
+      "Slug": "field_pp_sl_naming",
+      "Count": 24
+    },
+    {
+      "Slug": "field_pp_aws_managedcloud",
+      "Count": 23
+    },
+    {
+      "Slug": "field_pp_psl_cplusplus",
+      "Count": 23
+    },
+    {
+      "Slug": "field_pp_sl_brand_messaging",
+      "Count": 23
+    },
+    {
+      "Slug": "field_fl_ember_js",
+      "Count": 22
+    },
+    {
+      "Slug": "field_pp_aws_devops",
+      "Count": 22
+    },
+    {
+      "Slug": "field_pp_crm_customer_service",
+      "Count": 21
+    },
+    {
+      "Slug": "field_pp_fl_init_coin",
+      "Count": 21
+    },
+    {
+      "Slug": "field_pp_fw_wix",
+      "Count": 21
+    },
+    {
+      "Slug": "field_pp_mendix",
+      "Count": 21
+    },
+    {
+      "Slug": "field_pp_aws_development",
+      "Count": 19
+    },
+    {
+      "Slug": "field_pp_ms_hosting_cloud",
+      "Count": 19
+    },
+    {
+      "Slug": "field_pp_ms_other",
+      "Count": 19
+    },
+    {
+      "Slug": "field_pp_outsystems",
+      "Count": 19
+    },
+    {
+      "Slug": "field_pp_ppc_bing_advertising",
+      "Count": 19
+    },
+    {
+      "Slug": "field_pp_aws_migrations",
+      "Count": 18
+    },
+    {
+      "Slug": "field_pp_seo_international",
+      "Count": 18
+    },
+    {
+      "Slug": "field_pp_azure_devops",
+      "Count": 17
+    },
+    {
+      "Slug": "field_pp_fl_annual_reports",
+      "Count": 17
+    },
+    {
+      "Slug": "field_pp_psl_c",
+      "Count": 17
+    },
+    {
+      "Slug": "field_pp_quixy",
+      "Count": 17
+    },
+    {
+      "Slug": "field_pp_smm_snapchat",
+      "Count": 17
+    },
+    {
+      "Slug": "field_pp_azure_development",
+      "Count": 16
+    },
+    {
+      "Slug": "field_pp_azure_migrations",
+      "Count": 16
+    },
+    {
+      "Slug": "field_pp_bd_other",
+      "Count": 16
+    },
+    {
+      "Slug": "field_pp_erp_msft",
+      "Count": 16
+    },
+    {
+      "Slug": "field_pp_fl_magazine_book_cover",
+      "Count": 16
+    },
+    {
+      "Slug": "field_pp_crm_other",
+      "Count": 15
+    },
+    {
+      "Slug": "field_pp_crm_social",
+      "Count": 15
+    },
+    {
+      "Slug": "field_pp_fl_invitations",
+      "Count": 15
+    },
+    {
+      "Slug": "field_pp_crm_other_focus",
+      "Count": 14
+    },
+    {
+      "Slug": "field_pp_fl_greeting_cards",
+      "Count": 14
+    },
+    {
+      "Slug": "field_pp_fw_sitecore",
+      "Count": 14
+    },
+    {
+      "Slug": "field_pp_jquery",
+      "Count": 14
+    },
+    {
+      "Slug": "field_pp_ppc_amazon_advertising",
+      "Count": 14
+    },
+    {
+      "Slug": "field_pp_skuid",
+      "Count": 14
+    },
+    {
+      "Slug": "field_pp_wear_apple_watch",
+      "Count": 14
+    },
+    {
+      "Slug": "field_pp_aws_applications",
+      "Count": 13
+    },
+    {
+      "Slug": "field_pp_aws_security",
+      "Count": 13
+    },
+    {
+      "Slug": "field_pp_azure_analytics",
+      "Count": 13
+    },
+    {
+      "Slug": "field_pp_bd_marketing",
+      "Count": 13
+    },
+    {
+      "Slug": "field_pp_bd_operations",
+      "Count": 13
+    },
+    {
+      "Slug": "field_pp_instagram_influencer_marketing",
+      "Count": 13
+    },
+    {
+      "Slug": "field_pp_kintone",
+      "Count": 13
+    },
+    {
+      "Slug": "field_pp_map_blackberry",
+      "Count": 13
+    },
+    {
+      "Slug": "field_pp_wear_android_watches",
+      "Count": 13
+    },
+    {
+      "Slug": "field_pp_azure_security",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_bda_mongodb",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_crm_msft",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_crm_salesforce",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_erp_implementation",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_fl_merchandise",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_fw_squarespace",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_gpt3",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_linkedin_influencer_marketing",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_ms_security",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_pegasystems",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_smm_tiktok",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_youtube_influencer_marketing",
+      "Count": 12
+    },
+    {
+      "Slug": "field_pp_azure_management",
+      "Count": 11
+    },
+    {
+      "Slug": "field_pp_bda_microsoft",
+      "Count": 11
+    },
+    {
+      "Slug": "field_pp_fl_postcards",
+      "Count": 11
+    },
+    {
+      "Slug": "field_pp_smm_reddit",
+      "Count": 11
+    },
+    {
+      "Slug": "field_pp_fl_album_cover",
+      "Count": 10
+    },
+    {
+      "Slug": "field_pp_fw_struts",
+      "Count": 10
+    },
+    {
+      "Slug": "field_pp_influencer_identification_recruitment",
+      "Count": 10
+    },
+    {
+      "Slug": "field_pp_influencer_management",
+      "Count": 10
+    },
+    {
+      "Slug": "field_pp_ms_help_desk",
+      "Count": 10
+    },
+    {
+      "Slug": "field_pp_ms_network2",
+      "Count": 10
+    },
+    {
+      "Slug": "field_pp_video_prod_com_vid",
+      "Count": 10
+    },
+    {
+      "Slug": "field_pp_video_type_branded_video",
+      "Count": 10
+    },
+    {
+      "Slug": "field__pp_video_prod_motion_grap",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_ecom_oracle",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_fl_vuforia",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_influencer_campaign_reporting",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_micro_influencer_marketing",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_prod_services_visual_effects",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_recommendation_systems",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_video_prod_corp_vid",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_video_prod_explainer",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_wear_other",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_web3",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_appsmith",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_bd_finance",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_computer_vision",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_ecom_sap",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_ecom_ubercart",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_erp_oracle",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_erp_sap",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_gramex",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_metaverse_development",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_ppc_yahoo_advertising",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_prod_services_filming",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_prod_services_storyboarding",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_tiktok_influencer_marketing",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_video_prod_2d_animation",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_voice_recognition",
+      "Count": 8
+    },
+    {
+      "Slug": "focus_programming_go",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_ai_text_gen",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_aws_analytics",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_azure_iot",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_bd_security",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_bda_hadoop",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_bda_other",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_bda_tableau",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_dalle_2",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_erp_selection",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_fw_dotnetnuke",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_ms_disaster_recovery",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_ms_software_selection",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_prod_services_script_writing",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_prod_services_sounds_effects",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_prod_services_voiceovers",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_video_prod_whiteboard",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_ad_other",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_ai_code_gen",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_azure_ai",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_bpo_data_entry",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_business_consulting_strategy_development",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_crm_hubspot",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_crm_zoho",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_deepmind_gopher",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_ecom_demandware",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_ecom_ibm",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_ecom_netsuite",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_hugging_face",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_microservices_development",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_microservices_integration",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_microservices_migration",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_ms_software_expert",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_psl_apex",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_rest_api",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_ad_broadcast",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_ai_image_gen",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_ai_speech_gen",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_aws_iot",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_crm_sugar",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_devops_ci_cd",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_devops_consulting",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_digital_transformation",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_ecom_intershop",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_ecom_volusion",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_facebook_opt",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_fl_prototype_design",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_microservices_consulting",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_umbraco_cms",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_video_type_educational_training_video",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_ad_print",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_ai2",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_animation_green_screen",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_aws_machinelearning",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_bda_ibm",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_cc_breach_detection",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_cc_digital_forensics",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_cc_threat_attack_simul",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_containerization",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_erp_contract",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_erp_netsuite",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_erp_witness",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_microservices_maintenance",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_microservices_testing",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_ms_it_budgeting",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_ms_telecom",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_open_api",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_ppc_baidu_advertising",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_psl_coldfusion",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_psl_perl",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_sl_financial_accounting",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_soap_api",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_stable_diffusion",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_video_prod_3d_animation",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_video_prod_stop_motion",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_video_type_interview_testimonial",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_webhook_api",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_ad_out_of_home",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_adalo",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_ai_video_gen",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_arkit",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_cc_answering_services",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_cc_auth0",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_cc_b2c_telemarketing",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_cc_logmein",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_cc_secureauth",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_crm_adobe",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_crm_ibm",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_crm_marketo",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_crm_netsuite",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_dm_other",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_ecom_marketlive",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_erp_sage",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_fl_3d_print",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_fl_hardware_dd",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_fw_weebly",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_gpt_neox",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_it_assessment",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_mc_microsoft",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_mc_other",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_mobile_strategy",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_post_production_editing_services",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_presentations",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_prod_services_casting",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_prod_services_directing",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_sl_bookkeeping",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_video_prod_animation",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_video_prod_documentary",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_video_type_live_event_streaming",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_wear_google_glass",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_360_photography_video_tours",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_account_management",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_ad_radio",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_aerial_drone_video_photograph",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_ai_deployment",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_ai_music_gen",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_ai_strategy",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_anthropic",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_architecture_photograph",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_ato",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_bda_splunk",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_bpo_customer_service",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_bpo_customer_support",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_bpo_legal_outsourcing",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_bpo_payment_processing",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_bpo_virtual_assistant",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_bpo_writing_content",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_business_consulting_operational_changes",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cc_b2b_appt_setting",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cc_b2b_lead_generation",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cc_expert_testimony",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cc_forgerock",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cc_identity_access",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cc_jumpcloud",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cc_okta",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cc_onelogin",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cc_surveys_and_market",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cc_virtual_receptionist",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cloud_server_migration",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_crm_fusion",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_crm_righnow",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_crm_sage",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_crm_sap",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_cybersecurity_consulting",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_devops_strategy_planning",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_dm_direct_mail",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_environmental_photograph",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_erp_infor",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_erp_workday",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_fashion_photograph",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_fl_cad",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_food_photograph",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_fw_gatsby_js",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_fw_sdl",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_gpt_j",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_infographics",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_it_consolidation",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_microsoft_xclip",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_ms_vendor_selection",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_partner_api",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_ppc_spotify_advertising",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_product_photograph",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_psl_scala",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_psl_unrealscript",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_rpc_api",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_staffing_contingent",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_time_lapse_video",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_underwater_video",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_version_management",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_3d_rendering",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_GA4_consulting",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_a_frame",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_ad_connected_tv",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_ad_ott",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_adobe_firefly",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_ai_21",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_ai_sec_mgmt",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_amazon_compliance",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_backbonejs",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_bda_emc",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_bda_hp",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_bda_microstrategy",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_bda_qliktech",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_bda_sap",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_bda_sas",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_business_consulting_accessibility_consulting",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_business_consulting_change_management",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_business_consulting_ecommerce",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_business_consulting_management_consulting",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_business_consulting_re",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_business_consulting_talent_consulting",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_cc_collections",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_cc_customer_support",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_cc_inbound_appt",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_cc_order_processing",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_cohere",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_crm_teradata",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_devops_maturity_audits",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_digital_signage",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_dm_telemarketing",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_dreamfusion",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_ecom_ecwid",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_em_networking_events",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_environmental_graphic_design",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_event_photograph",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_facebook_affiliate_marketing",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_fw_duda",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_fw_expression_engine",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_fw_hp",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_fw_ibm",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_fw_sanity",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_fw_zope",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_immersive_brand",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_immersive_events",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_immersive_learning",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_intel_bots_dev",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_jukebox",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_lead_qual",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_leadership_executive_coaching",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_market_research_data_analysis",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_market_research_market_analysis",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_market_research_observational_research",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_market_research_surveys",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_mc_google",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_ms_governance",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_ms_hardware",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_package_structure",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_packaging_testing",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_permanent_staffing",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_pinterest_affiliate_marketing",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_portrait_photograph",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_pr_online_rep_managemen",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_presentation_public_speaking_training",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_product_engineering",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_project_management_training",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_psl_rust",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_real_estate_photography",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sales_business_development_training",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sl_payroll_processing",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_social_media_photography",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sports_photography",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_staffing_temporary",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_virtual_cio_services",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_virtual_shopping",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_youtube_affiliate_marketing",
+      "Count": 1
+    }
+  ],
+  "HourlyRates": [
+    {
+      "Slug": "0-25",
+      "Count": 754
+    },
+    {
+      "Slug": "25-49",
+      "Count": 502
+    },
+    {
+      "Count": 75
+    },
+    {
+      "Slug": "50-99",
+      "Count": 51
+    },
+    {
+      "Slug": "150-199",
+      "Count": 5
+    },
+    {
+      "Slug": "100-149",
+      "Count": 3
+    },
+    {
+      "Slug": "200-300",
+      "Count": 1
+    }
+  ],
+  "Industries": [
+    {
+      "Slug": "field_pp_if_ecommerce",
+      "Count": 668
+    },
+    {
+      "Slug": "field_pp_if_it",
+      "Count": 639
+    },
+    {
+      "Slug": "field_pp_if_healthcare",
+      "Count": 469
+    },
+    {
+      "Slug": "field_pp_if_bizservices",
+      "Count": 423
+    },
+    {
+      "Slug": "field_pp_if_education",
+      "Count": 391
+    },
+    {
+      "Slug": "field_pp_if_finservices",
+      "Count": 277
+    },
+    {
+      "Slug": "field_pp_if_realestate",
+      "Count": 276
+    },
+    {
+      "Slug": "field_pp_if_conproducts",
+      "Count": 227
+    },
+    {
+      "Slug": "field_pp_if_advertising",
+      "Count": 216
+    },
+    {
+      "Slug": "field_pp_if_hospitality",
+      "Count": 187
+    },
+    {
+      "Slug": "field_pp_if_manufacturing",
+      "Count": 186
+    },
+    {
+      "Slug": "field_pp_if_retail",
+      "Count": 175
+    },
+    {
+      "Slug": "field_pp_if_other",
+      "Count": 140
+    },
+    {
+      "Slug": "field_pp_if_transportation",
+      "Count": 136
+    },
+    {
+      "Slug": "field_pp_if_arts",
+      "Count": 107
+    },
+    {
+      "Slug": "field_pp_if_automotive",
+      "Count": 99
+    },
+    {
+      "Slug": "field_pp_if_government",
+      "Count": 82
+    },
+    {
+      "Slug": "field_pp_if_gps",
+      "Count": 72
+    },
+    {
+      "Slug": "field_pp_if_gaming",
+      "Count": 70
+    },
+    {
+      "Slug": "field_pp_if_media",
+      "Count": 67
+    },
+    {
+      "Slug": "field_pp_if_utilities",
+      "Count": 57
+    },
+    {
+      "Slug": "field_pp_if_natural_resources",
+      "Count": 56
+    },
+    {
+      "Slug": "field_pp_if_telecom",
+      "Count": 52
+    },
+    {
+      "Slug": "field_pp_if_dental",
+      "Count": 48
+    },
+    {
+      "Slug": "field_pp_if_nonprofit",
+      "Count": 31
+    },
+    {
+      "Slug": "field_pp_if_legal",
+      "Count": 30
+    },
+    {
+      "Slug": "field_pp_if_gambling",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_if_legal_cannabis",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_if_politics",
+      "Count": 7
+    }
+  ],
+  "ReviewsCount": [
+    {
+      "Slug": "0",
+      "Count": 1391
+    },
+    {
+      "Slug": "1",
+      "Count": 693
+    },
+    {
+      "Slug": "3",
+      "Count": 434
+    },
+    {
+      "Slug": "5",
+      "Count": 299
+    },
+    {
+      "Slug": "10",
+      "Count": 159
+    },
+    {
+      "Slug": "15",
+      "Count": 102
+    },
+    {
+      "Slug": "20",
+      "Count": 71
+    }
+  ],
+  "ServiceLines": [
+    {
+      "Slug": "field_pp_sl_web_programming",
+      "Count": 1391
+    },
+    {
+      "Slug": "field_pp_sl_mobile_app_dev",
+      "Count": 1054
+    },
+    {
+      "Slug": "field_pp_sl_ecommerce",
+      "Count": 679
+    },
+    {
+      "Slug": "field_pp_sl_application_dev",
+      "Count": 673
+    },
+    {
+      "Slug": "field_pp_sl_web_design",
+      "Count": 510
+    },
+    {
+      "Slug": "field_pp_sl_app_interface_design",
+      "Count": 374
+    },
+    {
+      "Slug": "field_pp_sl_seo",
+      "Count": 260
+    },
+    {
+      "Slug": "field_pp_sl_smm",
+      "Count": 191
+    },
+    {
+      "Slug": "field_pp_sl_graphic_design",
+      "Count": 129
+    },
+    {
+      "Slug": "field_pp_sl_iot_dev",
+      "Count": 97
+    },
+    {
+      "Slug": "field_pp_sl_artificial_intellige",
+      "Count": 85
+    },
+    {
+      "Slug": "field_pp_sl_staff_augmentation",
+      "Count": 82
+    },
+    {
+      "Slug": "field_pp_sl_sem",
+      "Count": 80
+    },
+    {
+      "Slug": "field_pp_sl_cust_app_manage",
+      "Count": 76
+    },
+    {
+      "Slug": "field_pp_sl_digital_strategy",
+      "Count": 75
+    },
+    {
+      "Slug": "field_pp_sl_application_mod",
+      "Count": 70
+    },
+    {
+      "Slug": "field_pp_sl_cloud_consult",
+      "Count": 70
+    },
+    {
+      "Slug": "field_pp_sl_software_qa",
+      "Count": 65
+    },
+    {
+      "Slug": "field_pp_sl_blockchain",
+      "Count": 63
+    },
+    {
+      "Slug": "field_pp_sl_logo",
+      "Count": 62
+    },
+    {
+      "Slug": "field_pp_sl_it_strategy2",
+      "Count": 61
+    },
+    {
+      "Slug": "field_pp_sl_erp",
+      "Count": 58
+    },
+    {
+      "Slug": "field_pp_sl_it_manag_services",
+      "Count": 57
+    },
+    {
+      "Slug": "field_pp_sl_content_marketing",
+      "Count": 53
+    },
+    {
+      "Slug": "field_pp_sl_branding",
+      "Count": 51
+    },
+    {
+      "Slug": "field_pp_sl_ar_vr_dev",
+      "Count": 44
+    },
+    {
+      "Slug": "field_pp_sl_other_sw_dev",
+      "Count": 43
+    },
+    {
+      "Slug": "field_pp_sl_crm",
+      "Count": 39
+    },
+    {
+      "Slug": "field_pp_sl_mobile_app_marketing",
+      "Count": 37
+    },
+    {
+      "Slug": "field_pp_sl_email_marketing",
+      "Count": 34
+    },
+    {
+      "Slug": "field_pp_sl_bi_big_data",
+      "Count": 26
+    },
+    {
+      "Slug": "field_pp_sl_wearables",
+      "Count": 25
+    },
+    {
+      "Slug": "field_pp_sl_product_design",
+      "Count": 17
+    },
+    {
+      "Slug": "field_pp_sl_video_interactive",
+      "Count": 16
+    },
+    {
+      "Slug": "field_pp_sl_other_digital_mark",
+      "Count": 15
+    },
+    {
+      "Slug": "field_pp_sl_managed_consulting",
+      "Count": 14
+    },
+    {
+      "Slug": "field_pp_sl_advertising",
+      "Count": 13
+    },
+    {
+      "Slug": "field_pp_sl_generative_ai",
+      "Count": 10
+    },
+    {
+      "Slug": "field_pp_sl_bpo2",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_sl_it_security2",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_sl_other_app_si",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_sl_packaging_design",
+      "Count": 9
+    },
+    {
+      "Slug": "field_pp_sl_call_center_services",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_sl_ecomm_marketing",
+      "Count": 8
+    },
+    {
+      "Slug": "field_pp_sl_api_dev",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_sl_devops_managed_services",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_sl_marketing_strategy",
+      "Count": 7
+    },
+    {
+      "Slug": "field_pp_sl_ai_consulting",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_sl_market_research",
+      "Count": 6
+    },
+    {
+      "Slug": "field_pp_sl_accounting",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_sl_email",
+      "Count": 5
+    },
+    {
+      "Slug": "field_pp_sl_content_writing_services",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_sl_conversion_opt",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_sl_microservices_architecture",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_sl_print",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_sl_reputation_manag",
+      "Count": 4
+    },
+    {
+      "Slug": "field_pp_sl_corporate_photography",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_sl_hr_consulting",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_sl_staffing",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_sl_telemarketing",
+      "Count": 3
+    },
+    {
+      "Slug": "field_pp_sl_architectural_design",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_sl_cust_svc_outsourcing",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_sl_ecm",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_sl_finance_accounting",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_sl_public_relations",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_sl_recruiting",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_sl_robotics_automation",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_sl_sales_outsourcing",
+      "Count": 2
+    },
+    {
+      "Slug": "field_pp_sl_commercial_brokerage_services",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sl_corporate_training",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sl_digital_engineering",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sl_executive_search",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sl_hr_outsourcing",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sl_interior_design",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sl_log_sup_cc",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sl_other_design",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sl_peo",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sl_werehous_distr",
+      "Count": 1
+    },
+    {
+      "Slug": "field_pp_sl_account_based_marketing"
+    },
+    {
+      "Slug": "field_pp_sl_air_fr"
+    },
+    {
+      "Slug": "field_pp_sl_audio_production"
+    },
+    {
+      "Slug": "field_pp_sl_bancruptcy_law"
+    },
+    {
+      "Slug": "field_pp_sl_banking_law"
+    },
+    {
+      "Slug": "field_pp_sl_benefits_admin"
+    },
+    {
+      "Slug": "field_pp_sl_biohazard_cleanup"
+    },
+    {
+      "Slug": "field_pp_sl_blockchain_marketing"
+    },
+    {
+      "Slug": "field_pp_sl_broadcast"
+    },
+    {
+      "Slug": "field_pp_sl_building_security"
+    },
+    {
+      "Slug": "field_pp_sl_business_continuity_mgmt"
+    },
+    {
+      "Slug": "field_pp_sl_business_valuation"
+    },
+    {
+      "Slug": "field_pp_sl_civil_rights_law"
+    },
+    {
+      "Slug": "field_pp_sl_commercial_development"
+    },
+    {
+      "Slug": "field_pp_sl_commercial_financing_funding_investment"
+    },
+    {
+      "Slug": "field_pp_sl_commercial_property_management"
+    },
+    {
+      "Slug": "field_pp_sl_commerical_printing"
+    },
+    {
+      "Slug": "field_pp_sl_compliance_consulting"
+    },
+    {
+      "Slug": "field_pp_sl_computer_engineering"
+    },
+    {
+      "Slug": "field_pp_sl_content_moderation_services"
+    },
+    {
+      "Slug": "field_pp_sl_contract_mf"
+    },
+    {
+      "Slug": "field_pp_sl_corporate_law"
+    },
+    {
+      "Slug": "field_pp_sl_corporate_relocation"
+    },
+    {
+      "Slug": "field_pp_sl_corporate_travel_management"
+    },
+    {
+      "Slug": "field_pp_sl_customs_brok"
+    },
+    {
+      "Slug": "field_pp_sl_data_annotation_services"
+    },
+    {
+      "Slug": "field_pp_sl_demand_generation_marketing"
+    },
+    {
+      "Slug": "field_pp_sl_digital_asset_mgmt"
+    },
+    {
+      "Slug": "field_pp_sl_document_mgmt"
+    },
+    {
+      "Slug": "field_pp_sl_employer_of_record"
+    },
+    {
+      "Slug": "field_pp_sl_engineering"
+    },
+    {
+      "Slug": "field_pp_sl_environmental_consulting"
+    },
+    {
+      "Slug": "field_pp_sl_event_management"
+    },
+    {
+      "Slug": "field_pp_sl_event_marketing"
+    },
+    {
+      "Slug": "field_pp_sl_fabrication"
+    },
+    {
+      "Slug": "field_pp_sl_family_law"
+    },
+    {
+      "Slug": "field_pp_sl_finance_law"
+    },
+    {
+      "Slug": "field_pp_sl_financial_advising"
+    },
+    {
+      "Slug": "field_pp_sl_financial_consulting"
+    },
+    {
+      "Slug": "field_pp_sl_fractional_CFO_services"
+    },
+    {
+      "Slug": "field_pp_sl_freight_ff"
+    },
+    {
+      "Slug": "field_pp_sl_fulfilment"
+    },
+    {
+      "Slug": "field_pp_sl_funding_investment"
+    },
+    {
+      "Slug": "field_pp_sl_immigration_law"
+    },
+    {
+      "Slug": "field_pp_sl_insurance"
+    },
+    {
+      "Slug": "field_pp_sl_insurance_law"
+    },
+    {
+      "Slug": "field_pp_sl_intellectual_law"
+    },
+    {
+      "Slug": "field_pp_sl_internet_law"
+    },
+    {
+      "Slug": "field_pp_sl_labor_law"
+    },
+    {
+      "Slug": "field_pp_sl_language_interpretation"
+    },
+    {
+      "Slug": "field_pp_sl_lighting_design"
+    },
+    {
+      "Slug": "field_pp_sl_litigation_support"
+    },
+    {
+      "Slug": "field_pp_sl_malpractice_law"
+    },
+    {
+      "Slug": "field_pp_sl_manufacturing_consulting"
+    },
+    {
+      "Slug": "field_pp_sl_media"
+    },
+    {
+      "Slug": "field_pp_sl_media_law"
+    },
+    {
+      "Slug": "field_pp_sl_ocean_fr"
+    },
+    {
+      "Slug": "field_pp_sl_other_marketing"
+    },
+    {
+      "Slug": "field_pp_sl_out_of_home"
+    },
+    {
+      "Slug": "field_pp_sl_procurement_support"
+    },
+    {
+      "Slug": "field_pp_sl_product_marketing"
+    },
+    {
+      "Slug": "field_pp_sl_rail_fr"
+    },
+    {
+      "Slug": "field_pp_sl_realestate_law"
+    },
+    {
+      "Slug": "field_pp_sl_recruitment_process_outsourcing"
+    },
+    {
+      "Slug": "field_pp_sl_sms_marketing"
+    },
+    {
+      "Slug": "field_pp_sl_sports_marketing"
+    },
+    {
+      "Slug": "field_pp_sl_supply_chain_mgmt"
+    },
+    {
+      "Slug": "field_pp_sl_talent_representation"
+    },
+    {
+      "Slug": "field_pp_sl_tax_law"
+    },
+    {
+      "Slug": "field_pp_sl_translation"
+    },
+    {
+      "Slug": "field_pp_sl_trucking"
+    },
+    {
+      "Slug": "field_pp_sl_video_marketing"
+    },
+    {
+      "Slug": "field_pp_sl_waste_mgmt"
+    },
+    {
+      "Slug": "field_pp_transcription"
+    }
+  ],
+  "Specializations": [
+    {
+      "Slug": "-1",
+      "Count": 942
+    },
+    {
+      "Slug": "field_accessibility",
+      "Count": 407
+    },
+    {
+      "Slug": "field_diversity_inclusion",
+      "Count": 386
+    },
+    {
+      "Slug": "field_multicultural",
+      "Count": 384
+    }
+  ],
+  "VerifiedProfilesCount": 34
+}

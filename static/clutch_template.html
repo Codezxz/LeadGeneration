@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clutch Data Display</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            margin-top: 80px;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .form-group label {
+            color: #007bff;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .table {
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dee2e6;
+            text-align: left;
+            padding: 8px;
+        }
+
+        thead {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        tbody tr:hover {
+            background-color: #f0f8ff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Clutch Data Display</h2>
+
+    <form method="post" action="{{ url_for('display_clutch_data') }}" class="mt-3">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="service">Service:</label>
+                <input type="text" class="form-control" id="service" name="service" placeholder="Enter Service">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="location">Location:</label>
+                <input type="text" class="form-control" id="location" name="location" placeholder="Enter Location">
+            </div>
+            <div class="form-group col-md-4">
+                <button type="submit" class="btn btn-primary">Fetch Data</button>
+            </div>
+        </div>
+    </form>
+
+    {% if data %}
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Rating</th>
+                    <th>Reviews</th>
+                    <th>Minimum Project Size</th>
+                    <th>Hourly Rate</th>
+                    <th>Location</th>
+                    <th>Profile URL</th>
+                    <th>Detailed Info</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in data %}
+                    <tr>
+                        <td>{{ row['Name'] }}</td>
+                        <td>{{ row['Description'] }}</td>
+                        <td>{{ row['Rating'] }}</td>
+                        <td>{{ row['Reviews'] }}</td>
+                        <td>{{ row['MinimumProjectSize'] }}</td>
+                        <td>{{ row['Hourly Rate'] }}</td>
+                        <td>{{ row['Location'] }}</td>
+                        <td>{{ row['Profile URL'] }}</td>
+                        <td>{{ row['Detailed Info'] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

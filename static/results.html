@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Scraper - Result</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+<body>
+    <h1>Scraped Company Data</h1>
+    <div class="mt-4">
+        <form action="{{ url_for('get_geo_codes') }}" method="post" id="geoCodesForm" class="scrape-form">
+            <div class="cursor"></div>
+            <div class="form-group">
+                <label for="keywords">Search Keywords:</label>
+                <input type="text" class="form-control" name="keywords" required>
+            </div>
+
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" class="form-control" name="location" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary scrape-button" id="next">
+                <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                Next
+            </button>
+        </form>
+
+        
+        
+        {% if data %}
+        <div class="modal fade" id="detailedInfoModal" tabindex="-1" role="dialog" aria-labelledby="detailedInfoModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="detailedInfoModalLabel">Detailed Information</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="detailedInfoContent">
+                        <h2>Scraped Company Data</h2>
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th>Company Name</th>
+                                    <th>Description</th>
+                                    <th>LinkedIn URL</th>
+                                    <th>Company URL</th>
+                                    <th>Contact Number</th>
+                                    <th>Number of Employees</th>
+                                    <th>Company Size</th>
+                                    <th>Headquarter</th>
+                                    <th>Company Type</th>
+                                    <th>Founded Year</th>
+                                    <th>Specialities</th>
+                                    <th>Industries</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for item in data %}
+                                    <tr>
+                                        <td>{{ item['company_name'] }}</td>
+                                        <td>{{ item['description'] }}</td>
+                                        <td><a href="{{ item['linkedin_url'] }}" target="_blank">{{ item['linkedin_url'] }}</a></td>
+                                        <td><a href="{{ item['company_url'] }}" target="_blank">{{ item['company_url'] }}</a></td>
+                                        <td>{{ item['contant_number']|default('N/A') }}</td>
+                                        <td>{{ item['num_employees']|default('N/A') }}</td>
+                                        <td>{{ item['company_size']|default('N/A') }}</td>
+                                        <td>{{ item['headquarter']['country']|default('N/A') }}, {{ item['headquarter']['city']|default('N/A') }}</td>
+                                        <td>{{ item['company_type']|default('N/A') }}</td>
+                                        <td>{{ item['founded_year']|default('N/A') }}</td>
+                                        <td>{{ item['specialities']|default('N/A') }}</td>
+                                        <td>{{ item['industries']|default('N/A') }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                            
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <h2>Scraped Company Data</h2>
+            <table class="table table-light">
+                <thead>
+                    <tr>
+                        <th>Company Name</th>
+                        <th>Description</th>
+                        <th>LinkedIn URL</th>
+                        <th>Company URL</th>
+                        <th>Contact Number</th>
+                        <th>Number of Employees</th>
+                        <th>Company Size</th>
+                        <th>Headquarter</th>
+                        <th>Company Type</th>
+                        <th>Founded Year</th>
+                        <th>Specialities</th>
+                        <th>Industries</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in data %}
+                        <tr>
+                            <td>{{ item['company_name'] }}</td>
+                            <td>{{ item['description'] }}</td>
+                            <td><a href="{{ item['linkedin_url'] }}" target="_blank">{{ item['linkedin_url'] }}</a></td>
+                            <td><a href="{{ item['company_url'] }}" target="_blank">{{ item['company_url'] }}</a></td>
+                            <td>{{ item['contant_number']|default('N/A') }}</td>
+                            <td>{{ item['num_employees']|default('N/A') }}</td>
+                            <td>{{ item['company_size']|default('N/A') }}</td>
+                            <td>{{ item['headquarter']['country']|default('N/A') }}, {{ item['headquarter']['city']|default('N/A') }}</td>
+                            <td>{{ item['company_type']|default('N/A') }}</td>
+                            <td>{{ item['founded_year']|default('N/A') }}</td>
+                            <td>{{ item['specialities']|default('N/A') }}</td>
+                            <td>{{ item['industries']|default('N/A') }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+                
+            </table>
+
+        {% endif %}
+    </div>
+    <!-- <p>{{ data }}</p> -->
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var detailedInfoButton = document.getElementById('fetchDetailsButton');
+        detailedInfoButton.addEventListener('click', function () {
+            // Make an asynchronous request to fetch detailed information
+            fetch('{{ url_for("start_linkedin_links_scrape") }}')
+                .then(response => response.json())
+                .then(data => {
+                    // Update the content of the modal
+                    var detailedInfoContent = document.getElementById('detailedInfoContent');
+                    // Customize this based on the structure of your detailed information
+                    detailedInfoContent.innerHTML = `<p>${data.detail1}</p><p>${data.detail2}</p>`;
+                    // Show the modal
+                    $('#detailedInfoModal').modal('show');
+                })
+                .catch(error => console.error('Error fetching detailed information:', error));
+        });
+    });
+</script> -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('fetchDetailsButton').addEventListener('click', function () {
+            var keywords = document.getElementById('keywords').value;
+            var totalResults = document.getElementById('totalResults').value;
+
+            fetchDetails(keywords, totalResults);
+        });
+    });
+
+    function fetchDetails(keywords, totalResults) {
+        fetch('/scrape', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ keywords: keywords, totalResults: totalResults }),
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            document.getElementById('resultsContainer').innerHTML = JSON.stringify(data, null, 2);
+        })
+        .catch(error => {
+            console.error('Error fetching details:', error);
+        });
+    }
+</script>
+
+
+</script>
+<script>
+    (function () {
+        const link = document.querySelectorAll('nav > .hover-this');
+        const cursor = document.querySelector('.cursor');
+
+        const animateit = function (e) {
+            const span = this.querySelector('span');
+            const { offsetX: x, offsetY: y } = e,
+            { offsetWidth: width, offsetHeight: height } = this,
+
+            move = 25,
+            xMove = x / width * (move * 2) - move,
+            yMove = y / height * (move * 2) - move;
+
+            span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+
+            if (e.type === 'mouseleave') span.style.transform = '';
+        };
+
+        const editCursor = e => {
+            const { clientX: x, clientY: y } = e;
+            cursor.style.left = x + 'px';
+            cursor.style.top = y + 'px';
+        };
+
+        link.forEach(b => b.addEventListener('mousemove', animateit));
+        link.forEach(b => b.addEventListener('mouseleave', animateit));
+        window.addEventListener('mousemove', editCursor);
+    })();
+</script>
+
+</html>

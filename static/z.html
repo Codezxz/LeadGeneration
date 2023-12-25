@@ -1,0 +1,66 @@
+<!-- combined_template.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Scraping</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>LinkedIn Scraping</h1>
+        
+        <!-- First Form: Location Codes -->
+        <form action="{{ url_for('get_geo_codes') }}" method="post">
+            <div class="form-group">
+                <label for="keywords">Search Keywords:</label>
+                <input type="text" class="form-control" name="keywords" required>
+            </div>
+
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" class="form-control" name="location" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+
+        
+
+        <!-- Second Form: LinkedIn Scraping -->
+
+
+
+
+        {% if linkedin_data %}
+            <form action="{{ url_for('linkedin_scrape') }}" method="post">
+                <div class="form-group">
+                    <label for="keywords">Keywords:</label>
+                    <input type="text" class="form-control" name="keywords" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="totalResults">Total Results:</label>
+                    <input type="number" class="form-control" name="totalResults" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Scrape LinkedIn</button>
+            </form>
+
+            <div class="mt-4">
+                <h2>Scraped Data</h2>
+                {% for item in data %}
+                    <!-- Display LinkedIn scraped data -->
+                    <!-- ... -->
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
